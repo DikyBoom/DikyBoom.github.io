@@ -31,5 +31,14 @@ Click me to display Date and Time.</button>
 document.getElementById("demo1").innerHTML = "Hello JavaScript!";
 </script> 
 
+    <div onmouseover="myOverFunction()">
+        <p>onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+    </div>
+    <script>
+        function myOverFunction() {
+            document.getElementById("demo3").innerHTML = "changed";
+        }
+    </script>
+
 </body>
 </html>
